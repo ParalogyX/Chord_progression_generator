@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chord Progression Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="app-container">
+    <h1 class="app-title">Chord Progression Generator</h1>
+
+    <div class="group-box">
+        <div class="group-title">Filters</div>
+        <div class="grid">
+            <!-- Row 1: Mode / Mood -->
+            <div class="grid-label">
+                <label for="mode">Mode:</label>
+            </div>
+            <div class="grid-field">
+                <select id="mode">
+                    {% for m in modes %}
+                        <option value="{{ m }}">{{ m }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="grid-label">
+                <label for="mood">Mood:</label>
+            </div>
+            <div class="grid-field">
+                <select id="mood">
+                    <option value="Any">Any</option>
+                    {% for m in moods %}
+                        <option value="{{ m }}">{{ m }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <!-- Row 2: Chord count / How many -->
+            <div class="grid-label">
+                <label for="bars">Chord count:</label>
+            </div>
+            <div class="grid-field">
+                <select id="bars">
+                    {% for c in chord_counts %}
+                        <option value="{{ c }}">{{ c }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="grid-label">
+                <label id="count-label" for="count">How many progressions (Max avail. 0):</label>
+            </div>
+            <div class="grid-field">
+                <input type="number" id="count" min="0" max="0" value="0">
+            </div>
+
+            <!-- Row 3: Song section -->
+            <div class="grid-label">
+                <label for="section">Song section:</label>
+            </div>
+            <div class="grid-field">
+                <select id="section">
+                    {% for s in sections %}
+                        <option value="{{ s }}">{{ s }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="grid-label"></div>
+            <div class="grid-field">
+                <input type="text" id="section-label"
+                       placeholder="Custom section (or auto-filled from dropdown)"
+                       value="Riff">
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons-row">
+        <button id="generate-btn">Generate</button>
+        <button id="copy-btn">Copy to clipboard</button>
+    </div>
+
+    <textarea id="result" readonly></textarea>
+    <div id="status" class="status-label"></div>
+</div>
+
+<script>
+    async function postJSON(url, payload) {
+        const resp = await fetch(url, {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify(payload)
+        });
+        return await resp.json();
+    }
+
+    function getCurrentFilters() {
+        const mode = document.getElementById("mode").value;
+        const mood = document.getElementById("mood").value;
+        const bars = document.getElementById("bars").value;
+        return {mode, mood, bars};
+    }
+
+    async function updateAvailableCount() {
+        const filters = getCurrentFilters();
+        const data = await postJSON("{{ url_for('available_count') }}", filters);
+        const available = data.available_count ?? 0;
+
+        const countLabel = document.getElementById("count-label");
+        const countInput = document.getElementById("count");
+        const status = document.getElementById("status");
+
+        countLabel.textContent = `How many progressions (Max avail. ${available}):`;
+
+        if (available === 0) {
+            countInput.min = 0;
+            countInput.max = 0;
+            countInput.value = 0;
+            status.textContent = "No progressions available with current filters.";
+        } else {
+            const current = parseInt(countInput.value || "1", 10);
+            countInput.min = 1;
+            countInput.max = available;
+            if (isNaN(current) || current < 1 || current > available) {
+                countInput.value = 1;
+            }
+            status.textContent = `${available} progression(s) available with current filters.`;
+        }
+    }
+
+    async function generateProgressions() {
+        const filters = getCurrentFilters();
+        const countInput = document.getElementById("count");
+        const sectionSelect = document.getElementById("section");
+        const sectionLabelInput = document.getElementById("section-label");
+
+        const count = parseInt(countInput.value || "0", 10);
+        let sectionLabel = sectionLabelInput.value.trim();
+        const sectionChoice = sectionSelect.value;
+
+        if (sectionChoice !== "Custom..." && !sectionLabel) {
+            sectionLabel = sectionChoice;
+        } else if (sectionChoice !== "Custom...") {
+            // If user picked a standard section, mirror it (like desktop UI)
+            sectionLabel = sectionChoice;
+        }
+
+        const payload = {
+            ...filters,
+            count: count,
+            section_label: sectionLabel
+        };
+
+        const data = await postJSON("{{ url_for('generate') }}", payload);
+        document.getElementById("result").value = data.text || "";
+        document.getElementById("status").textContent = data.status || "";
+    }
+
+    async function copyToClipboard() {
+        const textArea = document.getElementById("result");
+        const status = document.getElementById("status");
+        const text = textArea.value;
+
+        if (!text.trim()) {
+            status.textContent = "Nothing to copy.";
+            return;
+        }
+
+        try {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                await navigator.clipboard.writeText(text);
+            } else {
+                // fallback
+                textArea.select();
+                document.execCommand("copy");
+                textArea.selectionEnd = textArea.selectionStart;
+            }
+            status.textContent = "Progressions copied to clipboard.";
+        } catch (e) {
+            status.textContent = "Failed to copy to clipboard.";
+        }
+    }
+
+    function onSectionChanged() {
+        const sectionSelect = document.getElementById("section");
+        const sectionLabelInput = document.getElementById("section-label");
+        const text = sectionSelect.value;
+
+        if (text === "Custom...") {
+            // leave whatever user wants
+        } else {
+            sectionLabelInput.value = text;
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        document.getElementById("mode").addEventListener("change", updateAvailableCount);
+        document.getElementById("mood").addEventListener("change", updateAvailableCount);
+        document.getElementById("bars").addEventListener("change", updateAvailableCount);
+
+        document.getElementById("section").addEventListener("change", onSectionChanged);
+
+        document.getElementById("generate-btn").addEventListener("click", (e) => {
+            e.preventDefault();
+            generateProgressions();
+        });
+
+        document.getElementById("copy-btn").addEventListener("click", (e) => {
+            e.preventDefault();
+            copyToClipboard();
+        });
+
+        // initial calculation (like desktop version)
+        updateAvailableCount();
+    });
+</script>
+</body>
+</html>

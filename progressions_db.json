@@ -1,0 +1,1016 @@
+[
+    {
+        "id": 1,
+        "roman": "I-V-vi-IV",
+        "base_mode": "major",
+        "moods": [
+            "bright",
+            "energetic",
+            "rock",
+            "anthemic"
+        ],
+        "description": "Classic pop/rock hit progression (Axis progression). Extremely common in modern rock and pop; strong, catchy, and easy to sing over."
+    },
+    {
+        "id": 2,
+        "roman": "I-IV-V",
+        "base_mode": "major",
+        "moods": [
+            "bright",
+            "energetic",
+            "rock"
+        ],
+        "description": "Traditional rock cadence (tonic\u2013subdominant\u2013dominant). Ubiquitous in early rock\u2019n\u2019roll and classic rock."
+    },
+    {
+        "id": 3,
+        "roman": "vi-IV-I-V",
+        "base_mode": "major",
+        "moods": [
+            "bright",
+            "energetic",
+            "rock",
+            "electronic"
+        ],
+        "description": "Rotation of the Axis progression starting on vi. Very common in modern pop-rock and EDM; feels emotional but still uplifting."
+    },
+    {
+        "id": 4,
+        "roman": "I-bVII-IV",
+        "base_mode": "major",
+        "moods": [
+            "aggressive",
+            "rock"
+        ],
+        "description": "Grunge/punk feel with a Mixolydian flavor. Staple of classic rock and punk riffs."
+    },
+    {
+        "id": 5,
+        "roman": "I-bVII-bVI-bVII",
+        "base_mode": "major",
+        "moods": [
+            "aggressive",
+            "dark",
+            "rock"
+        ],
+        "description": "Metal/industrial, dark modal motion with a descending bass line. Great for heavy, looping riffs."
+    },
+    {
+        "id": 6,
+        "roman": "I-V-IV",
+        "base_mode": "major",
+        "moods": [
+            "bright",
+            "energetic",
+            "rock"
+        ],
+        "description": "American-style pop-punk, slightly softer than I\u2013IV\u2013V. Works well for fast, driving songs."
+    },
+    {
+        "id": 7,
+        "roman": "I-bIII-IV-bVI",
+        "base_mode": "major",
+        "moods": [
+            "dark",
+            "experimental",
+            "rock"
+        ],
+        "description": "Modal interchange with bIII and bVI gives alternative/cinematic color. Good for 90s alt-rock and soundtrack vibes."
+    },
+    {
+        "id": 8,
+        "roman": "I-V-bVII-IV",
+        "base_mode": "major",
+        "moods": [
+            "bright",
+            "aggressive",
+            "rock"
+        ],
+        "description": "Punk rock drive with a Mixolydian touch. Great for energetic choruses and gang vocals."
+    },
+    {
+        "id": 9,
+        "roman": "I-V-vi-iii-IV-I-IV-V",
+        "base_mode": "major",
+        "moods": [
+            "bright",
+            "retro"
+        ],
+        "description": "Extended 50s-style progression with a vintage vibe. Good for doo-wop, retro rock or playful bridges."
+    },
+    {
+        "id": 10,
+        "roman": "I-bII-I",
+        "base_mode": "major",
+        "moods": [
+            "aggressive",
+            "dark",
+            "rock"
+        ],
+        "description": "Phrygian-ish tension with a half-step clash. Very common in heavy metal and industrial riffs."
+    },
+    {
+        "id": 11,
+        "roman": "I-bII-bVII-I",
+        "base_mode": "major",
+        "moods": [
+            "aggressive",
+            "rock"
+        ],
+        "description": "Heavy metal feel with dense chromatic motion. Great for stomping mid-tempo riffs."
+    },
+    {
+        "id": 12,
+        "roman": "I-bVI-bVII-I",
+        "base_mode": "major",
+        "moods": [
+            "epic",
+            "aggressive",
+            "rock"
+        ],
+        "description": "Power-metal classic with a heroic/epic sound. Perfect for big choruses and guitar harmonies."
+    },
+    {
+        "id": 13,
+        "roman": "I-#IV\u00b0-V",
+        "base_mode": "major",
+        "moods": [
+            "aggressive",
+            "experimental"
+        ],
+        "description": "Chromatic diminished passing chord into the dominant. Good for neoclassical metal and dramatic builds."
+    },
+    {
+        "id": 14,
+        "roman": "I-iii-bVII-IV",
+        "base_mode": "major",
+        "moods": [
+            "aggressive",
+            "experimental",
+            "rock"
+        ],
+        "description": "Unusual major progression with modal color (iii as a lift, bVII as rock flavor). Fits alternative and progressive rock."
+    },
+    {
+        "id": 15,
+        "roman": "I-V-bVI-bVII-I",
+        "base_mode": "major",
+        "moods": [
+            "epic",
+            "aggressive",
+            "rock"
+        ],
+        "description": "Metallic loop with a strong sense of journey and return. Great for power-metal choruses and melodic metalcore hooks."
+    },
+    {
+        "id": 16,
+        "roman": "ii-V-I",
+        "base_mode": "major",
+        "moods": [
+            "jazz"
+        ],
+        "description": "Core jazz cadence. Appears in thousands of standards; good for turnarounds and reharmonizations."
+    },
+    {
+        "id": 17,
+        "roman": "Imaj7-vi7-ii7-V7",
+        "base_mode": "major",
+        "moods": [
+            "jazz"
+        ],
+        "description": "Jazz turnaround. Standard end-of-phrase pattern in jazz and sophisticated pop."
+    },
+    {
+        "id": 18,
+        "roman": "iii-vi-ii-V-I",
+        "base_mode": "major",
+        "moods": [
+            "jazz"
+        ],
+        "description": "Extended dominant cycle. Useful for intros, interludes and modulating sections."
+    },
+    {
+        "id": 19,
+        "roman": "I-IVmaj7-iii7-vi7-ii7-V7-I",
+        "base_mode": "major",
+        "moods": [
+            "jazz"
+        ],
+        "description": "Long jazz/classic chain with smooth resolution. Great template for lush ballads."
+    },
+    {
+        "id": 20,
+        "roman": "I-V42-I6-IV-ii6-V7-I",
+        "base_mode": "major",
+        "moods": [
+            "jazz"
+        ],
+        "description": "European-style classical cadence with inversions. Typical of late-Romantic tonal harmony."
+    },
+    {
+        "id": 21,
+        "roman": "I-Vsus4-V-I",
+        "base_mode": "major",
+        "moods": [
+            "bright",
+            "energetic",
+            "rock"
+        ],
+        "description": "Rock suspense: sus4 delaying the 3rd before resolving to V\u2013I. Classic stadium-rock gesture."
+    },
+    {
+        "id": 22,
+        "roman": "I-IVsus2-IV-I",
+        "base_mode": "major",
+        "moods": [
+            "bright",
+            "atmospheric"
+        ],
+        "description": "Light, airy feel with IVsus2 resolving to IV. Fits clean-guitar textures, indie and post-rock."
+    },
+    {
+        "id": 23,
+        "roman": "I-V6-IV-I",
+        "base_mode": "major",
+        "moods": [
+            "bright"
+        ],
+        "description": "V in first inversion for a smoother bass line. Good for subtle, polished pop-rock harmony."
+    },
+    {
+        "id": 24,
+        "roman": "I-iii\u00b07-ii-V7-I",
+        "base_mode": "major",
+        "moods": [
+            "jazz",
+            "experimental"
+        ],
+        "description": "Chromatic diminished color plus ii\u2013V\u2013I resolution. Nice for bridges and modulations."
+    },
+    {
+        "id": 25,
+        "roman": "Iadd9-IVadd9-V-I",
+        "base_mode": "major",
+        "moods": [
+            "atmospheric"
+        ],
+        "description": "Atmospheric add9 chords with open, lush sound. Great for post-rock, electro-rock and modern worship."
+    },
+    {
+        "id": 26,
+        "roman": "i-VI-VII",
+        "base_mode": "minor",
+        "moods": [
+            "aggressive",
+            "dark",
+            "rock"
+        ],
+        "description": "Natural minor, classic for metal/goth/industrial. Strong, simple loop for riffs and choruses."
+    },
+    {
+        "id": 27,
+        "roman": "i-VII-VI",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "epic",
+            "rock"
+        ],
+        "description": "Descending minor motion; feels epic and \u2018northern\u2019. Fits folk/pagan/Viking metal and big rock themes."
+    },
+    {
+        "id": 28,
+        "roman": "i-iv-v",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "rock"
+        ],
+        "description": "Natural-minor counterpart of I\u2013IV\u2013V. Staple minor-key rock and punk loop."
+    },
+    {
+        "id": 29,
+        "roman": "i-iv-V",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "aggressive",
+            "rock"
+        ],
+        "description": "Harmonic-minor variant with major V. Strong drama and pull back to i; common in metal."
+    },
+    {
+        "id": 30,
+        "roman": "i-VI-III-VII",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "epic",
+            "rock",
+            "melancholic"
+        ],
+        "description": "Cinematic natural-minor chain i\u2013VI\u2013III\u2013VII. Very emotional; often used in intros, verses and big choruses."
+    },
+    {
+        "id": 31,
+        "roman": "i-V-VI-VII",
+        "base_mode": "minor",
+        "moods": [
+            "aggressive",
+            "dark",
+            "rock"
+        ],
+        "description": "Rising minor cycle with growing tension. Great for build-ups and pre-choruses."
+    },
+    {
+        "id": 32,
+        "roman": "i-bII-i",
+        "base_mode": "minor",
+        "moods": [
+            "aggressive",
+            "dark",
+            "rock"
+        ],
+        "description": "Phrygian minor: i\u2013bII\u2013i. Extremely dark and exotic; classic in extreme metal."
+    },
+    {
+        "id": 33,
+        "roman": "i-VII-i-VI-VII",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "rock"
+        ],
+        "description": "Cyclic natural-minor motion. Good for verses that feel stuck or obsessive."
+    },
+    {
+        "id": 34,
+        "roman": "i-bVI-bVII-i",
+        "base_mode": "minor",
+        "moods": [
+            "epic",
+            "aggressive",
+            "rock"
+        ],
+        "description": "Power-metal minor with heroic feel. Great for big, soaring choruses."
+    },
+    {
+        "id": 35,
+        "roman": "i-bII-bVI-bVII-i",
+        "base_mode": "minor",
+        "moods": [
+            "aggressive",
+            "dark",
+            "rock"
+        ],
+        "description": "Thrash/industrial chromatic chain. Feels mechanical and relentless."
+    },
+    {
+        "id": 36,
+        "roman": "i-v-bVI-v",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "rock"
+        ],
+        "description": "Thick, gloomy loop with no full resolution. Good for doom/sludge and darker alt-rock."
+    },
+    {
+        "id": 37,
+        "roman": "i-VII-bII-VI-VII-i",
+        "base_mode": "minor",
+        "moods": [
+            "aggressive",
+            "dark",
+            "rock"
+        ],
+        "description": "Extended Phrygian minor loop. Very tense and exotic; fits progressive/extreme metal."
+    },
+    {
+        "id": 38,
+        "roman": "i-IV-VII-III",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "atmospheric",
+            "rock"
+        ],
+        "description": "Modal minor with IV and VII. Excellent for alternative rock/metal and dynamic verse/chorus contrasts."
+    },
+    {
+        "id": 39,
+        "roman": "i-iv-VII-III-VI",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "atmospheric",
+            "rock"
+        ],
+        "description": "Post-rock / post-metal style long arc. Feels like a journey through different levels of tension."
+    },
+    {
+        "id": 40,
+        "roman": "ii\u00b0-V-i",
+        "base_mode": "minor",
+        "moods": [
+            "jazz"
+        ],
+        "description": "Minor classical/jazz cadence. Basic ii\u00b0\u2013V\u2013i pattern for minor-key resolutions."
+    },
+    {
+        "id": 41,
+        "roman": "ii\u00f87-V7alt-i7",
+        "base_mode": "minor",
+        "moods": [
+            "jazz"
+        ],
+        "description": "Jazz ii\u2013V\u2013i in minor with altered dominant. Very expressive in dark ballads."
+    },
+    {
+        "id": 42,
+        "roman": "i-VI-ii\u00b0-V-i",
+        "base_mode": "minor",
+        "moods": [
+            "jazz",
+            "dark"
+        ],
+        "description": "Extended minor chain with classical flavor. Good for intros and codas in film/score writing."
+    },
+    {
+        "id": 43,
+        "roman": "i-iv-VII-III-VI-ii\u00b0-V-i",
+        "base_mode": "minor",
+        "moods": [
+            "jazz",
+            "dark"
+        ],
+        "description": "Full classical-style minor progression. Long journey through functional harmony back to tonic."
+    },
+    {
+        "id": 44,
+        "roman": "i-Vsus4-V-i",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "energetic",
+            "rock"
+        ],
+        "description": "Suspense progression in minor: sus4 delays the resolution. Good for dramatic refrains in metal and dark rock."
+    },
+    {
+        "id": 45,
+        "roman": "iadd9-VIadd9-VII-i",
+        "base_mode": "minor",
+        "moods": [
+            "atmospheric",
+            "dark",
+            "electronic"
+        ],
+        "description": "Atmospheric minor with lush add9 color. Fits industrial, cinematic and ambient electronica."
+    },
+    {
+        "id": 46,
+        "roman": "i-V6-iv-i",
+        "base_mode": "minor",
+        "moods": [
+            "dark"
+        ],
+        "description": "Inversions for smoother bass in minor. Works for introspective rock and metal ballads."
+    },
+    {
+        "id": 47,
+        "roman": "i-ivsus2-iv-VII-i",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "atmospheric"
+        ],
+        "description": "Modern minor sound mixing sus2 with modal VII. Good for post-rock and ambient metal builds."
+    },
+    {
+        "id": 48,
+        "roman": "I-#iv\u00b0-IV-I",
+        "base_mode": "major",
+        "moods": [
+            "experimental"
+        ],
+        "description": "Experimental chromatic move around IV using #iv\u00b0. Nice for quirky modulations and art-rock transitions."
+    },
+    {
+        "id": 49,
+        "roman": "i-III-bV-VI-i",
+        "base_mode": "minor",
+        "moods": [
+            "experimental",
+            "dark"
+        ],
+        "description": "Half\u2013whole diminished-type color; very tense and unstable. Good for horror cues and experimental metal."
+    },
+    {
+        "id": 50,
+        "roman": "I-bIII-#IVdim7-V-IV-I",
+        "base_mode": "major",
+        "moods": [
+            "experimental"
+        ],
+        "description": "Alt/rock chromatic chain with dim7 tension. Fits progressive, math-rock and artsy intros/bridges."
+    },
+    {
+        "id": 51,
+        "roman": "i-bIII-bV-V-i",
+        "base_mode": "minor",
+        "moods": [
+            "experimental",
+            "dark"
+        ],
+        "description": "Almost resolves through bV then snaps back to i. Unsettling, \u2018broken resolution\u2019 effect."
+    },
+    {
+        "id": 52,
+        "roman": "I-#I\u00b0-II-bIII-IV-I",
+        "base_mode": "major",
+        "moods": [
+            "experimental"
+        ],
+        "description": "Strong chromatic shifts around the tonic. Works for psychedelic rock and avant-garde sections."
+    },
+    {
+        "id": 53,
+        "roman": "i-iv-III-VI",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "rock",
+            "apathetic"
+        ],
+        "description": "Natural-minor loop with a flat, numb feel. Famous from Nirvana-style grunge (Fm: Fm\u2013Bbm\u2013Ab\u2013Db); quintessential 90s chord color."
+    },
+    {
+        "id": 54,
+        "roman": "i-III-VII-VI",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "melancholic",
+            "rock",
+            "anthemic"
+        ],
+        "description": "Epic minor progression widely used in rock and pop ballads. Very emotional, often heard in big, cinematic verses and choruses."
+    },
+    {
+        "id": 55,
+        "roman": "i-VII-VI-iv",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "epic",
+            "rock"
+        ],
+        "description": "Descending minor loop i\u2013VII\u2013VI\u2013iv with anthem-like quality. Great for choruses that should feel both heavy and singable."
+    },
+    {
+        "id": 56,
+        "roman": "i-III-VII-i",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "rock"
+        ],
+        "description": "Minor tonic to bright III major then rock VII back to i. Classic 90s alt-rock color."
+    },
+    {
+        "id": 57,
+        "roman": "i-VI-iv-V",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "anthemic",
+            "rock"
+        ],
+        "description": "Minor equivalent of a big pop ballad: i\u2013VI\u2013iv\u2013V. Great for emotional rock/metal choruses."
+    },
+    {
+        "id": 58,
+        "roman": "i-VI-VII-III",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "epic",
+            "rock"
+        ],
+        "description": "Minor with VI and VII leading to III. Cinematic sound; perfect for post-rock and metal instrumentals."
+    },
+    {
+        "id": 59,
+        "roman": "i-v-VI-III",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "rock"
+        ],
+        "description": "Natural-minor verse loop; introspective but forward-moving. Good for verses that open into brighter choruses."
+    },
+    {
+        "id": 60,
+        "roman": "i-iv-vi\u00b0-V",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "jazz"
+        ],
+        "description": "i\u2013iv\u2013vi\u00b0\u2013V: minor with diminished vi pulling strongly to V. Suitable for gothic rock and darker jazz-influenced sections."
+    },
+    {
+        "id": 61,
+        "roman": "I-vi-IV-V",
+        "base_mode": "major",
+        "moods": [
+            "bright",
+            "retro",
+            "rock"
+        ],
+        "description": "Classic 50s-style progression I\u2013vi\u2013IV\u2013V. Used in countless oldies and nostalgic rock ballads."
+    },
+    {
+        "id": 62,
+        "roman": "I-V-ii-IV",
+        "base_mode": "major",
+        "moods": [
+            "bright",
+            "energetic",
+            "rock"
+        ],
+        "description": "Axis-family variant with ii instead of vi. A bit brighter; works for modern pop-rock."
+    },
+    {
+        "id": 63,
+        "roman": "I-III-IV-iv",
+        "base_mode": "major",
+        "moods": [
+            "bright",
+            "melancholic",
+            "rock"
+        ],
+        "description": "Major I\u2013III\u2013IV then iv modal mixture. Good for bittersweet choruses that start happy but end with a minor twist."
+    },
+    {
+        "id": 64,
+        "roman": "I-V-IV-V",
+        "base_mode": "major",
+        "moods": [
+            "bright",
+            "energetic",
+            "rock"
+        ],
+        "description": "Very common rock/proto-punk loop. Strong driving pattern for verses and choruses."
+    },
+    {
+        "id": 65,
+        "roman": "I-IV-I-V",
+        "base_mode": "major",
+        "moods": [
+            "bright",
+            "retro"
+        ],
+        "description": "Simple folk/rock movement. Great for roots rock, Americana and straightforward choruses."
+    },
+    {
+        "id": 66,
+        "roman": "I-bVII-IV-I",
+        "base_mode": "major",
+        "moods": [
+            "aggressive",
+            "rock"
+        ],
+        "description": "Mixin\u2019 rock staple: I\u2013bVII\u2013IV\u2013I. Very typical for Southern rock and guitar-driven anthems."
+    },
+    {
+        "id": 67,
+        "roman": "I-bIII-bVII-IV",
+        "base_mode": "major",
+        "moods": [
+            "aggressive",
+            "rock"
+        ],
+        "description": "Blues/rock color with bIII and bVII. Great for AC/DC-style riffs and classic hard-rock choruses."
+    },
+    {
+        "id": 68,
+        "roman": "I-vi-ii-V",
+        "base_mode": "major",
+        "moods": [
+            "bright",
+            "jazz"
+        ],
+        "description": "Pop-jazz turnaround: I\u2013vi\u2013ii\u2013V. Common in standards and jazz-influenced pop/rock."
+    },
+    {
+        "id": 69,
+        "roman": "I-V-vi-ii",
+        "base_mode": "major",
+        "moods": [
+            "bright",
+            "melancholic",
+            "rock"
+        ],
+        "description": "Axis-like but landing on ii for a slightly unresolved feel. Good for bridges and pre-choruses."
+    },
+    {
+        "id": 70,
+        "roman": "i-bVII-bVI-bV",
+        "base_mode": "minor",
+        "moods": [
+            "aggressive",
+            "dark",
+            "rock"
+        ],
+        "description": "Chromatic descending minor riff i\u2013bVII\u2013bVI\u2013bV. Great for thrash and industrial guitar lines."
+    },
+    {
+        "id": 71,
+        "roman": "i-bII-bIII-bVI",
+        "base_mode": "minor",
+        "moods": [
+            "aggressive",
+            "dark",
+            "rock"
+        ],
+        "description": "Chromatic climb from i to bVI. Fits extreme metal and industrial when used as power-chords."
+    },
+    {
+        "id": 72,
+        "roman": "i-v-bVI-bVII",
+        "base_mode": "minor",
+        "moods": [
+            "aggressive",
+            "dark",
+            "rock"
+        ],
+        "description": "i\u2013v\u2013bVI\u2013bVII: classic metal movement with v minor. Good for driving verses."
+    },
+    {
+        "id": 73,
+        "roman": "i-bVI-VII-i",
+        "base_mode": "minor",
+        "moods": [
+            "epic",
+            "aggressive",
+            "rock"
+        ],
+        "description": "Epic loop where VI and VII both lean back into i. Great for heroic riffs and metal themes."
+    },
+    {
+        "id": 74,
+        "roman": "i-bVII-IV-i",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "rock"
+        ],
+        "description": "Minor with rock-style IV borrowed from relative major. Feels like a minor take on classic I\u2013bVII\u2013IV rock."
+    },
+    {
+        "id": 75,
+        "roman": "i-bVII-IV-bIII",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "rock"
+        ],
+        "description": "Descending rock pattern in minor. Works in doom/stoner contexts when slowed down and fuzzed."
+    },
+    {
+        "id": 76,
+        "roman": "i-IV-i-bVII",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "rock"
+        ],
+        "description": "Minor to IV then drop to bVII. Fits grunge and alternative mid-tempo choruses."
+    },
+    {
+        "id": 77,
+        "roman": "i-VI-bII-i",
+        "base_mode": "minor",
+        "moods": [
+            "aggressive",
+            "experimental",
+            "rock"
+        ],
+        "description": "Mix of natural VI and Phrygian bII. Very dark; good for extreme industrial/blackened textures."
+    },
+    {
+        "id": 78,
+        "roman": "I-bVII-bIII-IV",
+        "base_mode": "major",
+        "moods": [
+            "aggressive",
+            "rock"
+        ],
+        "description": "I\u2013bVII\u2013bIII\u2013IV: high-energy punk/alt-rock color. Great for power-chord riffs with shouted vocals."
+    },
+    {
+        "id": 79,
+        "roman": "I-IV-bVII-bIII",
+        "base_mode": "major",
+        "moods": [
+            "aggressive",
+            "rock"
+        ],
+        "description": "Mixolydian-blues hybrid. Good for hardcore breakdowns and mid-tempo punk choruses."
+    },
+    {
+        "id": 80,
+        "roman": "i-bVII-bVI-i",
+        "base_mode": "minor",
+        "moods": [
+            "aggressive",
+            "dark",
+            "rock"
+        ],
+        "description": "Tight descending minor loop; simple and brutal. Perfect for fast punk or hardcore in minor keys."
+    },
+    {
+        "id": 81,
+        "roman": "i-iv-bVII-bIII",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "rock"
+        ],
+        "description": "Minor take on Oi!/street-punk style progression. Good for chant-style choruses."
+    },
+    {
+        "id": 82,
+        "roman": "I-V-IV-vi",
+        "base_mode": "major",
+        "moods": [
+            "electronic",
+            "edm",
+            "bright",
+            "anthemic"
+        ],
+        "description": "1\u20135\u20134\u20136 progression, close relative of the Axis pattern. Works well in modern pop/EDM and as a twist on I\u2013V\u2013vi\u2013IV."
+    },
+    {
+        "id": 83,
+        "roman": "i-VI-VII-i",
+        "base_mode": "minor",
+        "moods": [
+            "electronic",
+            "edm",
+            "dark"
+        ],
+        "description": "Classic EDM minor loop i\u2013VI\u2013VII\u2013i. Great for progressive house and trance drops with emotional hooks."
+    },
+    {
+        "id": 84,
+        "roman": "VI-VII-v-i-VII",
+        "base_mode": "minor",
+        "moods": [
+            "electronic",
+            "dnb",
+            "dark"
+        ],
+        "description": "VI\u2013VII\u2013v\u2013i\u2013VII: descending-bass minor pattern. Good for rolling basslines in D&B and techno."
+    },
+    {
+        "id": 85,
+        "roman": "i-v-VI-VII",
+        "base_mode": "minor",
+        "moods": [
+            "electronic",
+            "edm"
+        ],
+        "description": "Minor EDM tool: i\u2013v\u2013VI\u2013VII. Feels more driving and less pop than i\u2013VI\u2013VII\u2013i."
+    },
+    {
+        "id": 86,
+        "roman": "i-VI-iv-III",
+        "base_mode": "minor",
+        "moods": [
+            "electronic",
+            "atmospheric"
+        ],
+        "description": "Emotional minor loop with IV and III. Good for liquid D&B, future garage and melancholic electronica."
+    },
+    {
+        "id": 87,
+        "roman": "iv-i-VI-VII",
+        "base_mode": "minor",
+        "moods": [
+            "electronic",
+            "dnb"
+        ],
+        "description": "Starts on iv for an \u2018in the middle of the story\u2019 feeling. Useful for mid-section loops in D&B and breaks."
+    },
+    {
+        "id": 88,
+        "roman": "I-V-vi-iii",
+        "base_mode": "major",
+        "moods": [
+            "electronic",
+            "edm",
+            "bright"
+        ],
+        "description": "House-friendly major progression: I\u2013V\u2013vi\u2013iii. Good for uplifting house and trance leads."
+    },
+    {
+        "id": 89,
+        "roman": "I-iii-vi-IV",
+        "base_mode": "major",
+        "moods": [
+            "electronic",
+            "edm",
+            "melancholic"
+        ],
+        "description": "I\u2013iii\u2013vi\u2013IV adds a bittersweet iii. Fits emotional EDM and French-house-style loops."
+    },
+    {
+        "id": 90,
+        "roman": "i-IV-VI-V",
+        "base_mode": "minor",
+        "moods": [
+            "electronic",
+            "edm"
+        ],
+        "description": "Minor progression often used under arpeggiated synth lines. Good for techno-trance hybrids and melodic techno."
+    },
+    {
+        "id": 91,
+        "roman": "i-VII-III-VI",
+        "base_mode": "minor",
+        "moods": [
+            "electronic",
+            "dnb",
+            "melancholic"
+        ],
+        "description": "Liquid D&B-friendly loop i\u2013VII\u2013III\u2013VI. Strong emotional narrative; great with side-chained pads."
+    },
+    {
+        "id": 92,
+        "roman": "VI-IV-I-V",
+        "base_mode": "major",
+        "moods": [
+            "electronic",
+            "edm",
+            "anthemic"
+        ],
+        "description": "Rotation of Axis chords starting on VI. Typical for modern EDM/pop where the chorus enters on a non-tonic chord."
+    },
+    {
+        "id": 93,
+        "roman": "i-VI-IV-VII",
+        "base_mode": "minor",
+        "moods": [
+            "electronic",
+            "edm"
+        ],
+        "description": "Minor EDM progression with smooth bass motion. Good for melodic bass music and hybrid trap."
+    },
+    {
+        "id": 94,
+        "roman": "i-iv-ii\u00b0-V",
+        "base_mode": "minor",
+        "moods": [
+            "electronic",
+            "experimental"
+        ],
+        "description": "More \u2018jazzy\u2019 minor progression useful for lo-fi, IDM and experimental electronica with rich chords."
+    },
+    {
+        "id": 95,
+        "roman": "i-iv-VII-VI",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "melancholic",
+            "rock"
+        ],
+        "description": "Emo/alt-rock style loop (e.g. Em\u2013Am\u2013D\u2013C). Strong descending bass feel; great for Midwest emo guitars and post-hardcore verses."
+    },
+    {
+        "id": 96,
+        "roman": "i-III-v-IV",
+        "base_mode": "minor",
+        "moods": [
+            "dark",
+            "melancholic",
+            "rock"
+        ],
+        "description": "Minor to bright III, then v\u2013IV. Very expressive for melodic hardcore/emo; works well with arpeggiated or \u2018twinkly\u2019 guitars."
+    },
+    {
+        "id": 97,
+        "roman": "I-vi-V-IV",
+        "base_mode": "major",
+        "moods": [
+            "bright",
+            "melancholic",
+            "rock",
+            "anthemic"
+        ],
+        "description": "Axis-family variant often used in pop-punk and emo. Starts on I, dips to vi, then resolves through V\u2013IV; good for choruses that feel both hopeful and sad."
+    }
+]

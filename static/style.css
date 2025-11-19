@@ -1,0 +1,132 @@
+/* Global */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 10pt;
+}
+
+.app-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px 20px 30px 20px;
+}
+
+.app-title {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #f0f0f0;
+}
+
+/* Group box mimic */
+.group-box {
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+    margin-top: 8px;
+    padding: 16px 12px 12px 12px;
+    position: relative;
+}
+
+.group-title {
+    position: absolute;
+    top: -10px;
+    left: 12px;
+    padding: 0 6px;
+    background-color: #1e1e1e;
+    font-weight: bold;
+    color: #f0f0f0;
+    font-size: 10pt;
+}
+
+/* Grid layout for labels/fields */
+.grid {
+    display: grid;
+    grid-template-columns: 120px 1fr 160px 1fr;
+    grid-row-gap: 8px;
+    grid-column-gap: 12px;
+    align-items: center;
+}
+
+.grid-label {
+    text-align: left;
+    color: #c0c0c0;
+}
+
+.grid-field {
+    width: 100%;
+}
+
+/* Inputs & selects */
+select,
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #252526;
+    border: 1px solid #3a3a3a;
+    border-radius: 3px;
+    padding: 4px 6px;
+    color: #e0e0e0;
+}
+
+select:focus,
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #007acc;
+}
+
+/* Buttons */
+button {
+    background-color: #007acc;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 14px;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 10pt;
+}
+
+button:hover {
+    background-color: #1493ff;
+}
+
+button:active {
+    background-color: #005c99;
+}
+
+/* Buttons row */
+.buttons-row {
+    margin-top: 12px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+/* Result area */
+#result {
+    width: 100%;
+    height: 280px;
+    resize: vertical;
+    border-radius: 4px;
+    border: 1px solid #3a3a3a;
+    background-color: #252526;
+    color: #e0e0e0;
+    padding: 6px 8px;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 10pt;
+}
+
+/* Status label */
+.status-label {
+    margin-top: 6px;
+    font-size: 9pt;
+    color: #c0c0c0;
+}
