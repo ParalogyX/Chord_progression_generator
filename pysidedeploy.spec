@@ -13,10 +13,10 @@ input_file = chordGenUI.pyw
 exec_directory = .
 
 # path to the project file relative to project_dir
-project_file = .
+project_file = 
 
 # application icon
-icon = E:\Python-projects\Chord_progression_generator\note.ico
+icon = note.ico
 
 [python]
 
@@ -44,7 +44,7 @@ modules =
 
 # qt plugins used by the application. only relevant for desktop deployment
 # for qt plugins used in android application see [android][plugins]
-plugins = accessiblebridge,egldeviceintegrations,generic,iconengines,imageformats,platforminputcontexts,platforms,platforms/darwin,platformthemes,styles,xcbglintegrations
+plugins = 
 
 [android]
 
