@@ -15,16 +15,30 @@ Design: dark, simple, but clean and “professional enough”.
 """
 
 import sys
+import os
 from PySide6.QtWidgets import (
     QApplication, QWidget, QLabel, QComboBox, QLineEdit, QSpinBox,
     QTextEdit, QPushButton, QHBoxLayout, QVBoxLayout, QGridLayout,
-    QGroupBox
+    QGroupBox, QMessageBox
 )
+from PySide6 import QtGui
 from PySide6.QtGui import QFont
 from PySide6.QtCore import Qt
 
 # Import your logic module
-from generator_script import filter_progressions, AVAILABLE_MOODS
+# BEFORE importing, ensure the JSON data file is in the expected location
+if os.path.exists('progressions_db.json'):
+    from generator_script import filter_progressions, AVAILABLE_MOODS
+else:
+    app = QApplication(sys.argv)
+    
+    msgBox = QMessageBox()
+    msgBox.setText("The file progressions_db.json is not found in the app folder.")
+    msgBox.setIcon(QMessageBox.Critical)
+    msgBox.setWindowTitle("Error")
+    msgBox.exec()
+    exit(1)
+
 
 
 class ProgressionGeneratorUI(QWidget):
@@ -323,6 +337,7 @@ class ProgressionGeneratorUI(QWidget):
 
 def main():
     app = QApplication(sys.argv)
+    app.setWindowIcon(QtGui.QIcon("note.ico"))  # Optional: set an application icon
     win = ProgressionGeneratorUI()
     win.show()
     sys.exit(app.exec())
